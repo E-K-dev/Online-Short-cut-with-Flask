@@ -1,0 +1,112 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Poppins', 'Montserrat',sans-serif;
+	letter-spacing: 2px;
+	font-weight: 100;
+	font-style: normal;
+
+	body {
+		background-image: url('img/background/background.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow-x: inherit;
+		overflow-y: auto;
+	} // End of body.
+
+	.flex {
+		cursor: pointer;
+		display: flex;
+		position: relative;
+		width: 400px;
+		flex-wrap: wrap;
+		height: 400px;
+		background-color: rgba(255,255,255,.3);
+		margin: 5% auto;
+		border-radius: 2px;
+		border: solid 2px transparent;
+		margin-top: 10%;
+
+		&:hover {
+			border-color: #f55555;
+			box-shadow: 0px 0px 30px #f55555;
+			background-color: rgba(255,255,255,.5);
+			transition: .3s all ease-in-out;
+		}
+
+		form {
+			display: flex;
+			position: relative;
+			width: 100%;
+			height: 100%;
+			flex-wrap: wrap;
+		} // End of form content
+
+		span {
+			position: absolute;
+			display: flex;
+			top: 40px;
+			font-size: 30px;
+			cursor: pointer;
+		} // End of span
+
+		button {
+			position: absolute;
+			bottom: 40px;
+			display: flex;
+			cursor: pointer;
+			height: 60px;
+			width: 150px;
+			background-color: #ffffff;
+			color: #f55555;
+			font-size: 25px;
+			border: solid 2px #f55555;
+			padding: 10px;
+			border-radius: 5px;
+			&:hover {
+				background-color: #f55555;
+				box-shadow: 0px 0px 30px #f55555;
+				color: #ffffff;
+				transition: .3s all ease-in-out;
+			}
+		} // End of button
+
+		input {
+			position:relative;
+			display: flex;
+			width: 300px;
+			text-align: left;
+			color: #f55555;
+			font-size: 30px;
+			padding: 10px;
+			height: 60px;
+			border-radius: 5px;
+			border: solid 2px #f55555;
+			background-color: #eeeeee;
+			&:focus ,&:hover {
+				background-color: #ffffff;
+				box-shadow: 0px 0px 30px #f55555;
+				transition: .3s all ease-in-out;
+			}
+
+		} // End of input
+
+		::placeholder {
+			display: flex;
+			position: relative;
+			left: 5px;
+			color: #f55555;
+			pointer-events:none;
+		} // End of placeholder
+
+	} // End of flex container
+
+} // End of all sass styles or contents
