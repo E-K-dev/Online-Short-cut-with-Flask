@@ -47,7 +47,7 @@ def info():
 
 		to = open(name , 'wt');
 
-		to.write(f'Acortado by Axel Ezequiel Kampmann Using Python\n\nTinyUrl = {tinyurl}\nIsGd = n{isgd}\nOsDb = {osdb}');
+		to.write(f'Acortado by Axel Ezequiel Kampmann Using Python\n\nTinyUrl = {tinyurl}\nIsGd = {isgd}\nOsDb = {osdb}');
 
 		to.close();
 
